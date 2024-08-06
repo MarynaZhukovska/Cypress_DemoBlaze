@@ -1,8 +1,6 @@
 /// <reference types='cypress' />
 
-const { should } = require("chai");
-
-describe('Web Tables page', () => {
+describe('demoblaze', () => {
     
   beforeEach(() =>{
     cy.visit('https://www.demoblaze.com/');
